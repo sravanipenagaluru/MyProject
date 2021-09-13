@@ -33,8 +33,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.4.0.905</version>
+	<type>pom</type>
+</dependency>
 	</dependencies>
-
+	<profiles>
+	<profile>
+	  <id>sonar</id>
+	<activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+ <properties>
+  <!--  <sonar.host.url>http://localhost:9000/</sonar.host.url>-->
+	<sonar.host.url>http://localhost:8888/</sonar.host.url>
+	<!--<sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>-->
+  </properties>
+	  </profile>
+	  </profiles>
 	<build>
 		<plugins>
 			<plugin>
