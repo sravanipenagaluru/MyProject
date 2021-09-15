@@ -61,5 +61,14 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>Maven-releases</id>
+			<url>http://localhost:7374/sravani/repository/New_Project_releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>Maven-snapshots</id>
+			<url>http://localhost:7374/sravani/repository/New_Project_snapshot/</url>
+		</snapshotRepository>
+</distributionManagement>
 </project>
