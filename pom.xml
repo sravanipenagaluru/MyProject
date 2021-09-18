@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>My_project</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>My_project</name>
 	<description>Demo project for Spring Boot</description>
@@ -63,12 +63,14 @@
 	</build>
 	<distributionManagement>
 		<repository>
-			<id>Maven-releases</id>
-			<url>http://localhost:7374/sravani/repository/New_Project_releases/</url>
+			<!--<id>Maven-releases</id>
+			<url>http://localhost:7374/sravani/repository/New_Project_releases/</url> -->
+			<id>MyProject</id>
+			<url>http://localhost:7374/sravani/repository/MyProject/</url>
 		</repository>
-		<snapshotRepository>
+	<!--	<snapshotRepository>
 			<id>Maven-snapshots</id>
 			<url>http://localhost:7374/sravani/repository/New_Project_snapshot/</url>
-		</snapshotRepository>
+		</snapshotRepository> -->
 </distributionManagement>
 </project>
