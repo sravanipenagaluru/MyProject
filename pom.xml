@@ -45,7 +45,7 @@
 	  <id>sonar</id>
 	<activation>
                 <activeByDefault>true</activeByDefault>
-            </activation>
+		</activation>
  <properties>
   <!--  <sonar.host.url>http://localhost:9000/</sonar.host.url>-->
 	<sonar.host.url>http://localhost:8888/</sonar.host.url>
