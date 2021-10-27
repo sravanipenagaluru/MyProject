@@ -65,7 +65,7 @@
 		<repository>
 			<!--<id>Maven-releases</id>
 			<url>http://localhost:7374/sravani/repository/New_Project_releases/</url> -->
-			<id>MyProject</id>
+			<id>maven-releases</id>
 			<url>http://localhost:7374/sravani/repository/maven-releases/</url>
 		</repository>
 	<!--	<snapshotRepository>
